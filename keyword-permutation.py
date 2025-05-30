@@ -9,7 +9,7 @@ def generate_variations(keyword):
     base = " ".join(words)
     variations = set()
 
-    # Variasi huruf
+    # words variations
     variations.add(base.lower())
     variations.add(base.upper())
     variations.add(base.title())
